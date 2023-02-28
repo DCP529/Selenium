@@ -17,6 +17,7 @@ IWebDriver driver = new ChromeDriver();
 
 driver.Url = @"https://www.mos.ru/dpir/function/napravlenie-deyatelnosti-dpir/razvitie-chelovecheskogo-kapitala/detskie/";
 
+driver.FindElement(By.CssSelector(".checkbox"));
 
 
 #region
